@@ -1,0 +1,14 @@
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\bin\Debug\net7.0\ThisIsCodingTest.exe
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\bin\Debug\net7.0\ThisIsCodingTest.deps.json
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\bin\Debug\net7.0\ThisIsCodingTest.runtimeconfig.json
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\bin\Debug\net7.0\ThisIsCodingTest.dll
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\bin\Debug\net7.0\ThisIsCodingTest.pdb
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.AssemblyInfoInputs.cache
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.AssemblyInfo.cs
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.csproj.CoreCompileInputs.cache
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.dll
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\refint\ThisIsCodingTest.dll
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.pdb
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ThisIsCodingTest.genruntimeconfig.cache
+D:\Users\Human_KNY\Personal\ThisIsCodingTest\ThisIsCodingTest\obj\Debug\net7.0\ref\ThisIsCodingTest.dll
