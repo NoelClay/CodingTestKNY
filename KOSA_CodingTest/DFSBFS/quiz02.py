@@ -18,6 +18,6 @@ def solution(numbers, target):
             else:
                 continue
         else:
-            stack.append([curidx+1, curval+numbers[curidx]])
-            stack.append([curidx+1, curval-numbers[curidx]])
+            stack.append([curidx+1, curval+numbers[curidx+1]])
+            stack.append([curidx+1, curval-numbers[curidx+1]])
     return answer    
