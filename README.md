@@ -1,2 +1,1 @@
-# ThisIsCodingTest
- 이코테 레포짓
+# 코테
