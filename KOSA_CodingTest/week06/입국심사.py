@@ -24,11 +24,13 @@ def binary_search_function(source_list, target_count):
         for s in source_list:
             cnt = cnt + m_value//s
         
+        #최소값을 찾는 조건식 크면 줄이고 같아도 줄여 그렇게 타이트하게 줄여낸다음에
         if cnt >= target_count:
             e_value = m_value-1
         else:
             s_value = m_value+1
             
+        #줄이고 줄인 e_value가 쥐어짜내진 상태면 최소값 스타트밸류를 출력
         if s_value > e_value:
             return s_value
         
