@@ -1,35 +1,38 @@
-#그니까 타겟넘버만큼 만들 수 있는 최대 길이를 구하는건데. 이 최대길이를 2진 탐색으로 찾아야겠네.
-#시작값 0cm 끝값 최대길이 값 중앙값 0+최대길이 //2
 
-def binary_search(source_list, target_number):
-    # s_value = 0
-    #길이는 1 이상으로
-    s_value = 1
-    e_value = max(source_list)
+def two_pointer(source_list, target_number_zero):
+    left_index = 0
+    right_index = len(source_list)-1
+    alter_answer_set_list = []
+    
     while True:
-        m_value = (s_value+e_value)//2
-        cnt = 0
-        for s in source_list:
-            cnt = cnt + (s//m_value)
+        test_value = source_list[left_index] + source_list[right_index]
+        # alter_answer_set_list.append([test_value, left_index, right_index])
+        alter_answer_set_list.append([abs(test_value), left_index, right_index])
         
-        # if cnt == target_number:
-        #     return m_value
-        #타겟넘버를 넘어가도 좋으니 최대 길이가 될때까지 계속 탐색하기 즉 타겟넘버가 되는 경우의 수가 여러개 일 수 있음
-        if cnt >= target_number:
-            s_value = m_value + 1
+        if test_value == target_number_zero:
+            # alter_answer_set_list.append([test_value, left_index, right_index])
+            # break
+            return [test_value, left_index, right_index]
+        elif test_value < target_number_zero:
+            left_index += 1
         else:
-            e_value = m_value - 1
+            right_index -= 1
         
-        # if s_value>e_value:
-        #     return m_value
-        #아 m_value가 타겟넘버인지는 관심없이 더이상 나누기가 불가능한 수준까지 반복문을 타이트하게 돌리고 나면
-        #항상 s_value, m_value가 e_value를 넘어가는 지경까지 반복문을 돌리게 된다.
-        #따라서 그 바로 직전 e_value가 반환값이 되는거.
-        if s_value>e_value:
-            return e_value
+        # alter_answer_set_list.append([abs(test_value), left_index, right_index])
         
-n, m = map(int, input().split())
+        if left_index >= right_index:
+            break
+    
+    # close_alter_answer_set_list = alter_answer_set_list.copy()
+    alter_answer_set_list.sort()
+            
+    
+    return alter_answer_set_list[0]
+        
+n = int(input())
 
-data_list = [int(input()) for _ in range(n)]
+# data_list = [map(int, input().split()) for _ in range(n)]
+data_list = list(map(int, input().split()))
+result = two_pointer(data_list, 0)
 
-print(binary_search(data_list, m))
+print(f"{str(data_list[result[1]])} {str(data_list[result[2]])}")
